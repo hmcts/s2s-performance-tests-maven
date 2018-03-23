@@ -1,0 +1,7 @@
+RUN	SingleLeaseMultipleChecks	singleleasemultiplechecks	singleleasemultiplechecks	1521806471832	singleleasemultiplechecks	2.0
+USER	Testing	1	START	1521806472431	1521806472431
+REQUEST	Testing	1		Lease token	1521806472476	1521806472806	OK	 
+REQUEST	Testing	1		Check token	1521806472837	1521806472884	OK	 
+REQUEST	Testing	1		Check token	1521806521468	1521806521538	OK	 
+REQUEST	Testing	1		Check token	1521806572410	1521806572477	OK	 
+USER	Testing	1	END	1521806472431	1521806626651

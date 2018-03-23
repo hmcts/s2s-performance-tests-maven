@@ -1,0 +1,145 @@
+RUN	SingleLeaseMultipleChecks		singleleasemultiplechecks	1521806281453	 	2.0
+USER	Testing	1	START	1521806282045	1521806282045
+USER	Testing	2	START	1521806282402	1521806282402
+REQUEST	Testing	1		Lease token	1521806282092	1521806282432	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	1		Check token	1521806282469	1521806282522	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+REQUEST	Testing	2		Lease token	1521806282404	1521806282617	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	2		Check token	1521806282619	1521806282661	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	3	START	1521806282744	1521806282744
+REQUEST	Testing	3		Lease token	1521806282745	1521806282971	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	3		Check token	1521806282973	1521806283030	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	4	START	1521806283074	1521806283074
+REQUEST	Testing	4		Lease token	1521806283075	1521806283247	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	4		Check token	1521806283249	1521806283293	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	5	START	1521806283402	1521806283402
+REQUEST	Testing	5		Lease token	1521806283403	1521806283598	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	5		Check token	1521806283600	1521806283653	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	6	START	1521806283743	1521806283743
+REQUEST	Testing	6		Lease token	1521806283744	1521806283946	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	6		Check token	1521806283948	1521806283990	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	7	START	1521806284073	1521806284073
+REQUEST	Testing	7		Lease token	1521806284073	1521806284265	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	7		Check token	1521806284267	1521806284308	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	8	START	1521806284394	1521806284394
+REQUEST	Testing	8		Lease token	1521806284395	1521806284572	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	8		Check token	1521806284574	1521806284624	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	9	START	1521806284722	1521806284722
+REQUEST	Testing	9		Lease token	1521806284723	1521806284953	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	9		Check token	1521806284955	1521806284999	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	10	START	1521806285063	1521806285063
+REQUEST	Testing	10		Lease token	1521806285064	1521806285380	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	10		Check token	1521806285382	1521806285442	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	11	START	1521806285564	1521806285564
+REQUEST	Testing	11		Lease token	1521806285565	1521806285876	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	11		Check token	1521806285878	1521806285933	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	12	START	1521806286064	1521806286064
+REQUEST	Testing	12		Lease token	1521806286065	1521806286375	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+USER	Testing	13	START	1521806286394	1521806286394
+REQUEST	Testing	12		Check token	1521806286377	1521806286434	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+REQUEST	Testing	13		Lease token	1521806286395	1521806286559	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	13		Check token	1521806286561	1521806286610	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	14	START	1521806286722	1521806286722
+REQUEST	Testing	14		Lease token	1521806286723	1521806286897	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	14		Check token	1521806286899	1521806286951	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	15	START	1521806287062	1521806287062
+REQUEST	Testing	15		Lease token	1521806287063	1521806287232	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	15		Check token	1521806287234	1521806287285	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	16	START	1521806287393	1521806287393
+REQUEST	Testing	16		Lease token	1521806287394	1521806287592	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	16		Check token	1521806287594	1521806287646	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	17	START	1521806287722	1521806287722
+REQUEST	Testing	17		Lease token	1521806287723	1521806287941	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	17		Check token	1521806287943	1521806287995	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	18	START	1521806288065	1521806288065
+REQUEST	Testing	18		Lease token	1521806288066	1521806288280	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	18		Check token	1521806288282	1521806288328	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	19	START	1521806288393	1521806288393
+REQUEST	Testing	19		Lease token	1521806288393	1521806288569	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	19		Check token	1521806288571	1521806288617	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	20	START	1521806288722	1521806288722
+REQUEST	Testing	20		Lease token	1521806288723	1521806288942	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	20		Check token	1521806288944	1521806288995	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	21	START	1521806289065	1521806289065
+REQUEST	Testing	21		Lease token	1521806289066	1521806289228	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	21		Check token	1521806289230	1521806289279	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	22	START	1521806289564	1521806289564
+REQUEST	Testing	22		Lease token	1521806289565	1521806289819	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	22		Check token	1521806289821	1521806289877	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	23	START	1521806290064	1521806290064
+REQUEST	Testing	23		Lease token	1521806290064	1521806290277	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	23		Check token	1521806290279	1521806290325	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	24	START	1521806290394	1521806290394
+REQUEST	Testing	24		Lease token	1521806290395	1521806290548	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	24		Check token	1521806290550	1521806290596	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	25	START	1521806290722	1521806290722
+REQUEST	Testing	25		Lease token	1521806290723	1521806290883	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	25		Check token	1521806290884	1521806290928	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	26	START	1521806291065	1521806291065
+REQUEST	Testing	26		Lease token	1521806291066	1521806291269	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	26		Check token	1521806291270	1521806291322	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	27	START	1521806291393	1521806291393
+REQUEST	Testing	27		Lease token	1521806291394	1521806291602	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	27		Check token	1521806291604	1521806291655	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	28	START	1521806291724	1521806291724
+REQUEST	Testing	28		Lease token	1521806291724	1521806291912	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	28		Check token	1521806291913	1521806291970	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	29	START	1521806292063	1521806292063
+REQUEST	Testing	29		Lease token	1521806292064	1521806292283	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	29		Check token	1521806292284	1521806292347	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	30	START	1521806292393	1521806292393
+REQUEST	Testing	30		Lease token	1521806292394	1521806292556	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	30		Check token	1521806292558	1521806292602	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	31	START	1521806292724	1521806292724
+REQUEST	Testing	31		Lease token	1521806292725	1521806292950	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	31		Check token	1521806292952	1521806292998	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	32	START	1521806293063	1521806293063
+REQUEST	Testing	32		Lease token	1521806293064	1521806293274	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	32		Check token	1521806293276	1521806293325	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	33	START	1521806293563	1521806293563
+REQUEST	Testing	33		Lease token	1521806293564	1521806293780	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	33		Check token	1521806293782	1521806293835	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	34	START	1521806294062	1521806294062
+REQUEST	Testing	34		Lease token	1521806294063	1521806294226	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	34		Check token	1521806294228	1521806294276	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	35	START	1521806294393	1521806294393
+REQUEST	Testing	35		Lease token	1521806294394	1521806294570	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	35		Check token	1521806294571	1521806294618	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	36	START	1521806294723	1521806294723
+REQUEST	Testing	36		Lease token	1521806294725	1521806294895	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	36		Check token	1521806294896	1521806294944	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	37	START	1521806295062	1521806295062
+REQUEST	Testing	37		Lease token	1521806295063	1521806295261	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	37		Check token	1521806295262	1521806295313	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	38	START	1521806295393	1521806295393
+REQUEST	Testing	38		Lease token	1521806295394	1521806295598	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	38		Check token	1521806295599	1521806295647	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	39	START	1521806295724	1521806295724
+REQUEST	Testing	39		Lease token	1521806295724	1521806295939	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	39		Check token	1521806295940	1521806295991	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	40	START	1521806296063	1521806296063
+REQUEST	Testing	40		Lease token	1521806296064	1521806296267	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	40		Check token	1521806296269	1521806296318	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	41	START	1521806296394	1521806296394
+REQUEST	Testing	41		Lease token	1521806296395	1521806296567	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	41		Check token	1521806296569	1521806296619	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	42	START	1521806296724	1521806296724
+REQUEST	Testing	42		Lease token	1521806296725	1521806296883	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	42		Check token	1521806296885	1521806296940	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	43	START	1521806297062	1521806297062
+REQUEST	Testing	43		Lease token	1521806297063	1521806297213	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	43		Check token	1521806297215	1521806297263	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	44	START	1521806297564	1521806297564
+REQUEST	Testing	44		Lease token	1521806297564	1521806297723	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	44		Check token	1521806297724	1521806297788	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	45	START	1521806298064	1521806298064
+REQUEST	Testing	45		Lease token	1521806298065	1521806298265	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	45		Check token	1521806298266	1521806298315	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	46	START	1521806298392	1521806298392
+REQUEST	Testing	46		Lease token	1521806298392	1521806298609	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	46		Check token	1521806298611	1521806298660	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	47	START	1521806298723	1521806298723
+REQUEST	Testing	47		Lease token	1521806298724	1521806298870	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	47		Check token	1521806298872	1521806298916	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}
+USER	Testing	48	START	1521806299065	1521806299065
+REQUEST	Testing	48		Lease token	1521806299065	1521806299275	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 401
+REQUEST	Testing	48		Check token	1521806299276	1521806299327	KO	bodyString.find.is(divorce), but actually found {"message":"Error verifying token"}

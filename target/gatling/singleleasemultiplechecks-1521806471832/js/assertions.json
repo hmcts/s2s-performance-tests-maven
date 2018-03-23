@@ -1,0 +1,10 @@
+{
+  "simulation": "SingleLeaseMultipleChecks",
+  "simulationId": "singleleasemultiplechecks",
+  "start": 1521806471832,
+  "description": "singleleasemultiplechecks",
+  "scenarios": ["Testing"],
+  "assertions": [
+
+  ]
+}
